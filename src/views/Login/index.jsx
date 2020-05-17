@@ -10,7 +10,7 @@ class Login extends Component {
         console.log(this.props)
         return (
             <div>
-                登录信息{this.props.message}
+                登录信息:{this.props.message}
                 <input type="button" value="修改仓库数据" onClick={() => {
                     // store.dispatch({
                     //     type: 'changeMessage',
